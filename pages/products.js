@@ -1,23 +1,23 @@
-import Navbar from "@/components/Navbar";
-import React from "react";
+import Navbar from '@/components/Navbar'
+import React from 'react'
 import Head from 'next/head';
-const index = () => {
+const products = () => {
   return (
     <>
-    <Head>
+        <Head>
       <title>
-        Home
+        Products
       </title>
     </Head>
-      <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center" }}>
         <Navbar />
         <div style={{backgroundColor:"white",color:"black",width:"70%", padding:"150px 80px",margin:"100px auto"}}>
-            <h1>Home page</h1>
+            <h1>No Products yet</h1>
 
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default index;
+export default products
